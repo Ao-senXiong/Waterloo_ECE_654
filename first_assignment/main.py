@@ -12,10 +12,11 @@ def check_nesting(node, depth=1):
             check_nesting(child, depth + 1)
 
 def analyze_ast(source):
-    tree = ast.parse(source.read())
+    tree = ast.parse(source)
     for node in ast.walk(tree):
         check_length(node)
         check_nesting(node)
+    return "Static analysis successful, no issues found."
 
-source = open("testcases/ast_example_indentifier.py", "r")
-analyze_ast(source)
+# source = open("testcases/ast_example_indentifier.py", "r")
+# analyze_ast(source)
