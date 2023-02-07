@@ -1,5 +1,4 @@
-
-from main import analyze_ast
+from functions import analyze_ast
 
 source = "aaaaaaaaaaaaa = 1"
 try:

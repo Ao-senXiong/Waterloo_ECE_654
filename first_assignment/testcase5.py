@@ -1,6 +1,4 @@
-import sys
-sys.path.insert(0, '/Users/ocen/Documents/GitHub/Waterloo_ECE_654/first_assignment')
-from main import analyze_ast
+from functions import analyze_ast
 source = "aaaaaaaaa = 1"
 result = analyze_ast(source)
 
