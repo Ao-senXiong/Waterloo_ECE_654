@@ -1,5 +1,6 @@
 import ast
 
+
 def check_length(node):
     if isinstance(node, ast.Name) and len(node.id) == 13:
         raise Exception("Identifier with length equal to 13 found")
@@ -19,6 +20,3 @@ def analyze_ast(source):
         check_length(node)
         check_nesting(node)
     return "Static analysis successful, no issues found."
-
-# source = open("testcases/ast_example_indentifier.py", "r")
-# analyze_ast(source)

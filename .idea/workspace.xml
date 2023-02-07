@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6731d159-2319-4b40-b995-573fe6bd9eea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_assignment/testcase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-package.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_assignment/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_assignment/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_assignment/testcase8.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
       <list>
         <option value="Class" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -53,28 +63,7 @@
       <recent name="$PROJECT_DIR$/first_assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testcase8">
-    <configuration name="testcase4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Waterloo_ECE_654" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_assignment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_assignment/testcase4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_functions.test_positive_cases">
     <configuration name="testcase5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Waterloo_ECE_654" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +148,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_functions.test_positive_cases" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Waterloo_ECE_654" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_assignment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_functions.test_positive_cases&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_functions.test_positive_cases" />
         <item itemvalue="Python.testcase8" />
         <item itemvalue="Python.testcase7" />
         <item itemvalue="Python.testcase6" />
         <item itemvalue="Python.testcase5" />
-        <item itemvalue="Python.testcase4" />
       </list>
     </recent_temporary>
   </component>

@@ -58,3 +58,44 @@ if result == "Static analysis successful, no issues found.":
     print("Test case 5 passed")
 else:
     print("Test case 5 failed, unexpected result")
+
+source = """
+if True:
+    for i in range(10):
+        if i % 2 == 0:
+            while True:
+                if i % 3 == 0:
+                    print("Too much nesting")
+"""
+try:
+    analyze_ast(source)
+    print("Test case 6 failed, exception expected")
+except Exception as e:
+    if str(e) == "Control structure nesting exceeds 4":
+        print("Test case 6 passed")
+    else:
+        print("Test case 6 failed, unexpected exception")
+
+source = """
+a = 1
+b = 2
+c = 3
+d = 4
+"""
+result = analyze_ast(source)
+if result == "Static analysis successful, no issues found.":
+    print("Test case 7 passed")
+else:
+    print("Test case 7 failed, unexpected result")
+
+source = """
+if True:
+    print("Hello")
+else:
+    print("World")
+"""
+result = analyze_ast(source)
+if result == "Static analysis successful, no issues found.":
+    print("Test case 8 passed")
+else:
+    print("Test case 8 failed, unexpected result")
